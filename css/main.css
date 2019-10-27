@@ -21,7 +21,6 @@ div {
   border-width: 3px;
   color: #fff;
   text-decoration: none;
-  vertical-align: middle;
 }
 
 .btn-primary {
@@ -56,7 +55,12 @@ div {
 }
 .btn-ghost {
   color: #000;
-  font-size: 1.125rem;
+  border-width: 3px;
+
+}
+
+.btn-big {
+  font-size: 1.5rem;
 }
 
 .btn-ghost:hover {
