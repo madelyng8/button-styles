@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font: normal 100%/1.5 sans-serif;
+  background-color: #fff;
 }
 
 *, *::before, *::after {
@@ -14,46 +15,58 @@ div {
 
 .btn {
   display: inline-block;
-  padding: .4em;
+  padding: .4em .75em .3em;
   text-align: center;
   border-radius: 8px;
   border-width: 3px;
-  color: #333;
+  color: #fff;
   text-decoration: none;
+  vertical-align: middle;
+}
+
+.btn-primary {
+  font-size: 1.125rem;
+  color: #fff;
 }
 
 .btn:hover {
-
+ background-color: #ccc;
+ margin: .5em;
+ padding: .4em;
 }
 
 .btn-small {
-
+  font-size: .875rem;
 }
 
 .btn-big {
-
+  font-size: 1.5rem;
 }
 
 .btn-subtle {
-
+  background-color: #333;
 }
 
 .btn-subtle:hover {
 
 }
 
+.regular {
+  font-size: 1.125rem;
+}
 .btn-ghost {
-
+  color: #000;
+  font-size: 1.125rem;
 }
 
 .btn-ghost:hover {
-
+  font-size: 1.5rem;
 }
 
 .btn-warning {
-
+  background-color:#f33;
 }
 
 .btn-warning:hover {
-
+  background-color:#933;
 }
